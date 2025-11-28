@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Menu, X, Cpu } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
 import Button from './Button';
+import Logo from '../nubenta-logo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
