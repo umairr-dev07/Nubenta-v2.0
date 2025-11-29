@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Beeba Bot</NavLink></li>
               <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Genie Bot</NavLink></li>
-              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Product</NavLink></li>
+              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Products</NavLink></li>
             </ul>
           </div>
           
