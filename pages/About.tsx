@@ -42,7 +42,7 @@ const About: React.FC = () => {
         </div>
 
         {/* Trusted By Section */}
-        <div className="border-t border-white/10 pt-20">
+        <div className="border-t border-white/10 pt-20 pb-20">
             <h2 className="text-center text-sm font-semibold text-slate-500 uppercase tracking-[0.2em] mb-12 font-heading">
                 Trusted By Industry Leaders
             </h2>
@@ -65,6 +65,29 @@ const About: React.FC = () => {
                         )}
                     </div>
                 ))}
+            </div>
+        </div>
+
+        {/* A Project By Section */}
+        <div className="border-t border-white/10 pt-16">
+            <div className="text-center">
+                <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-[0.2em] mb-8 font-heading">
+                    A Project By
+                </h2>
+                <div className="flex justify-center items-center">
+                    <a 
+                        href="https://duhanashrah.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="transition-transform duration-300 hover:scale-105"
+                    >
+                        <img 
+                            src="/dn.png" 
+                            alt="Project Logo" 
+                            className="h-16 md:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300 drop-shadow-lg"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
       </div>

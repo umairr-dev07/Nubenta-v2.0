@@ -75,7 +75,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             ) : (
               // Default buttons for non-pricing specific views (e.g. if we had a full store)
               <>
-                 <NavLink to="/book-demo" className="block">
+                 <NavLink to="/pricing" className="block">
                   <Button fullWidth variant="outline" glowColor={isPurple ? 'purple' : 'blue'} className="group/btn">
                     Learn More <ArrowRight className="w-4 h-4 ml-1 inline-block transition-transform group-hover/btn:translate-x-1" />
                   </Button>

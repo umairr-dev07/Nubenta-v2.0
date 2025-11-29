@@ -42,7 +42,7 @@ const BookDemo: React.FC = () => {
                 </div>
                 <div>
                     <h3 className="text-xl font-bold text-white mb-2">Tailored Walkthrough</h3>
-                    <p className="text-slate-400">We don't do generic demos. We'll show you exactly how Beeba or Jennie fits your specific business model.</p>
+                    <p className="text-slate-400">We don't do generic demos. We'll show you exactly how Beeba or Genie fits your specific business model.</p>
                 </div>
              </div>
           </div>

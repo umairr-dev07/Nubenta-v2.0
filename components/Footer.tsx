@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { SOCIAL_LINKS } from '../constants';
-
+import Logo from '../nubenta-logo.png';
 
 
 const Footer: React.FC = () => {
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               </h3> */}
             <p className="text-slate-400 max-w-md">
               Empowering businesses with autonomous AI agents. 
-              Beeba and Jennie are designed to scale your reach and revenue while you focus on vision.
+              Beeba and Genie are designed to scale your reach and revenue while you focus on vision.
             </p>
           </div>
           
@@ -29,8 +29,8 @@ const Footer: React.FC = () => {
             <h4 className="text-white font-semibold mb-4 uppercase tracking-wider">Product</h4>
             <ul className="space-y-2">
               <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Beeba Bot</NavLink></li>
-              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Jennie Bot</NavLink></li>
-              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Pricing</NavLink></li>
+              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Genie Bot</NavLink></li>
+              <li><NavLink to="/pricing" className="text-slate-400 hover:text-neon-blue transition-colors">Product</NavLink></li>
             </ul>
           </div>
           
