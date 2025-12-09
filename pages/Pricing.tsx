@@ -1,7 +1,7 @@
 import React from 'react';
 import { PRODUCTS } from '../constants';
 import ProductCard from '../components/ProductCard';
-import { Building2, Check } from 'lucide-react';
+import { Building2, Check, Phone } from 'lucide-react';
 import Button from '../components/Button';
 import { NavLink } from 'react-router-dom';
 
@@ -63,7 +63,8 @@ const Pricing: React.FC = () => {
                                 'Automates competitor analysis.',
                                 'Creates content automatically.',
                                 'Schedules and posts content for you.',
-                                'Handles lead follow-up with AI.',
+                                'Generates SEO hashtags and captions.',
+                                'Automatically tracks social media stats.',
                                 'Makes digital marketing fully hands-free.'
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-3 text-slate-400">
@@ -75,8 +76,14 @@ const Pricing: React.FC = () => {
                             ))}
                         </ul>
                         
-                        <div className="pt-6 flex flex-col sm:flex-row items-center justify-start gap-6">
-                            <span className="text-4xl font-bold text-white">$2000<span className="text-lg text-slate-500 font-normal">/mo</span></span>
+                        <div className="pt-6 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                            <div className="flex flex-col gap-2">
+                                <span className="text-lg text-slate-400">Contact for Pricing & Details</span>
+                                <a href="tel:+15204426528" className="flex items-center gap-2 text-2xl font-semibold text-white hover:text-purple-400 transition-colors">
+                                    <Phone className="w-6 h-6" />
+                                    +1 (520) 442-6528
+                                </a>
+                            </div>
                              <NavLink to="/book-demo">
                                 <Button variant="primary" glowColor="purple" className="!px-8 !py-3">
                                     Book Live Demo
@@ -110,7 +117,7 @@ const Pricing: React.FC = () => {
                         <h3 className="text-xl text-blue-400 font-medium mb-8">AI Calling Agent: Your 24/7 Automated Voice Team</h3>
 
                         <p className="text-slate-300 leading-relaxed text-lg mb-8">
-                            GENIE, an AI Calling Agent, is an intelligent, human-like voice assistant, custom-built for your business. It moves you from the hardship of missed calls and lost leads to the ease of capturing and qualifying every opportunity, 24/7. Stop losing sales after hours; let your digital employee handle the calls.
+                            GENIE, an AI Calling Agent, is an intelligent, human-like voice assistant, custom-built for your business. It moves you from the hardship of missed calls and lost leads to the ease of capturing and qualifying every opportunity, 24/7. Stop losing sales after hours; let your AI agent handle the calls.
                         </p>
                         
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 text-left w-full mb-8">
@@ -119,6 +126,7 @@ const Pricing: React.FC = () => {
                                 'Provides 24/7 customer support.',
                                 'Handles AI-powered appointment scheduling.',
                                 'Performs proactive AI lead qualification.',
+                                'Can nurture calls with custom scripts.',
                                 'Turns your phone line into a fully automated asset.'
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-3 text-slate-400">
@@ -130,8 +138,14 @@ const Pricing: React.FC = () => {
                             ))}
                         </ul>
                         
-                         <div className="pt-6 flex flex-col sm:flex-row items-center justify-start gap-6">
-                            <span className="text-4xl font-bold text-white">$2000<span className="text-lg text-slate-500 font-normal">/mo</span></span>
+                         <div className="pt-6 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                            <div className="flex flex-col gap-2">
+                                <span className="text-lg text-slate-400">Contact for Pricing & Details</span>
+                                <a href="tel:+15204426528" className="flex items-center gap-2 text-2xl font-semibold text-white hover:text-blue-400 transition-colors">
+                                    <Phone className="w-6 h-6" />
+                                    +1 (520) 442-6528
+                                </a>
+                            </div>
                              <NavLink to="/book-demo">
                                 <Button variant="primary" glowColor="blue" className="!px-8 !py-3">
                                     Book Live Demo

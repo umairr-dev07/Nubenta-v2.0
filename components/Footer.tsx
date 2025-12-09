@@ -65,7 +65,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="tel:+1234567890" className="text-slate-400 hover:text-neon-blue transition-colors">
-                  +1 (234) 567-890
+                  +1 (520) 442-6528
                 </a>
               </li>
               <li>

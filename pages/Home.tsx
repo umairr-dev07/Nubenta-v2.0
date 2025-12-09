@@ -37,18 +37,17 @@ const Home: React.FC = () => {
             <span className="text-sm font-medium text-slate-300 tracking-wider font-heading">WELCOME TO NUBENTA</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 leading-tight">
-            The Future is <br />
+<h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white mb-6 leading-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 animate-gradient-x">
-              INTELLIGENT
-            </span>
+              AI Solutions
+            </span>{" "}
+            Built for <br />
+            Real Results
           </h1>
           
           <p className="max-w-3xl mx-auto text-lg md:text-2xl text-slate-300 mb-12 leading-relaxed font-light font-body">
             NUBENTA builds advanced AI agents that revolutionize how you connect, sell, and support. Meet your new workforce. 
-            {/* <strong>Beeba</strong> creates your content strategy. <strong>Genie</strong> closes your sales.
-            <br />
-            <span className="text-white font-semibold block mt-4">Scale Without Limits.</span> */}
+
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
